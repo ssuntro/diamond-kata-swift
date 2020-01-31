@@ -19,3 +19,9 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+struct Diamond {
+    func produce(with character: String) -> String {
+        return "A"
+    }
+}

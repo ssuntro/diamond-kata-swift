@@ -11,7 +11,6 @@ import XCTest
 
 class diamond_kataTests: XCTestCase {
     func test_whenInputA_shouldbeA() {
-        XCTAssertTrue(Diamond().produce(with "A"), "input A should return Just A")
+        XCTAssertTrue(Diamond().produce(with:"A") == "A", "input A should return A")
     }
-
 }
