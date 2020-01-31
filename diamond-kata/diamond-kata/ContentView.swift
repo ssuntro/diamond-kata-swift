@@ -22,6 +22,16 @@ struct ContentView_Previews: PreviewProvider {
 
 struct Diamond {
     func produce(with character: String) -> String {
-        return "A"
+        if character == "A" {
+            return "A"
+        } else {
+            return
+            """
+             A
+            B B
+             A
+            """
+        }
+        
     }
 }

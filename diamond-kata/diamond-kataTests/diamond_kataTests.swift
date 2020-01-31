@@ -13,4 +13,13 @@ class diamond_kataTests: XCTestCase {
     func test_whenInputA_shouldbeA() {
         XCTAssertTrue(Diamond().produce(with:"A") == "A", "input A should return A")
     }
+    
+    func test_whenInputB_shouldGet3LinesDiamond() {
+        XCTAssertTrue(Diamond().produce(with: "B") ==
+            """
+             A
+            B B
+             A
+            """)
+    }
 }
