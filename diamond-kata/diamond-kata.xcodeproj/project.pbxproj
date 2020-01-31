@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBB3276723E1783C00D260F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB3276623E1783C00D260F2 /* AppDelegate.swift */; };
+		BBB3276923E1783C00D260F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB3276823E1783C00D260F2 /* SceneDelegate.swift */; };
+		BBB3276B23E1783C00D260F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB3276A23E1783C00D260F2 /* ContentView.swift */; };
+		BBB3276D23E1783D00D260F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB3276C23E1783D00D260F2 /* Assets.xcassets */; };
+		BBB3277023E1783D00D260F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB3276F23E1783D00D260F2 /* Preview Assets.xcassets */; };
+		BBB3277323E1783D00D260F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB3277123E1783D00D260F2 /* LaunchScreen.storyboard */; };
+		BBB3277E23E1783D00D260F2 /* diamond_kataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB3277D23E1783D00D260F2 /* diamond_kataTests.swift */; };
+		BBB3278923E1783D00D260F2 /* diamond_kataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB3278823E1783D00D260F2 /* diamond_kataUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBB3277A23E1783D00D260F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB3275B23E1783C00D260F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB3276223E1783C00D260F2;
+			remoteInfo = "diamond-kata";
+		};
+		BBB3278523E1783D00D260F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB3275B23E1783C00D260F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB3276223E1783C00D260F2;
+			remoteInfo = "diamond-kata";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBB3276323E1783C00D260F2 /* diamond-kata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "diamond-kata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB3276623E1783C00D260F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBB3276823E1783C00D260F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BBB3276A23E1783C00D260F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBB3276C23E1783D00D260F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBB3276F23E1783D00D260F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBB3277223E1783D00D260F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBB3277423E1783D00D260F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB3277923E1783D00D260F2 /* diamond-kataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "diamond-kataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB3277D23E1783D00D260F2 /* diamond_kataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diamond_kataTests.swift; sourceTree = "<group>"; };
+		BBB3277F23E1783D00D260F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB3278423E1783D00D260F2 /* diamond-kataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "diamond-kataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB3278823E1783D00D260F2 /* diamond_kataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diamond_kataUITests.swift; sourceTree = "<group>"; };
+		BBB3278A23E1783D00D260F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBB3276023E1783C00D260F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB3277623E1783D00D260F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB3278123E1783D00D260F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBB3275A23E1783C00D260F2 = {
+			isa = PBXGroup;
+			children = (
+				BBB3276523E1783C00D260F2 /* diamond-kata */,
+				BBB3277C23E1783D00D260F2 /* diamond-kataTests */,
+				BBB3278723E1783D00D260F2 /* diamond-kataUITests */,
+				BBB3276423E1783C00D260F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBB3276423E1783C00D260F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3276323E1783C00D260F2 /* diamond-kata.app */,
+				BBB3277923E1783D00D260F2 /* diamond-kataTests.xctest */,
+				BBB3278423E1783D00D260F2 /* diamond-kataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBB3276523E1783C00D260F2 /* diamond-kata */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3276623E1783C00D260F2 /* AppDelegate.swift */,
+				BBB3276823E1783C00D260F2 /* SceneDelegate.swift */,
+				BBB3276A23E1783C00D260F2 /* ContentView.swift */,
+				BBB3276C23E1783D00D260F2 /* Assets.xcassets */,
+				BBB3277123E1783D00D260F2 /* LaunchScreen.storyboard */,
+				BBB3277423E1783D00D260F2 /* Info.plist */,
+				BBB3276E23E1783D00D260F2 /* Preview Content */,
+			);
+			path = "diamond-kata";
+			sourceTree = "<group>";
+		};
+		BBB3276E23E1783D00D260F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3276F23E1783D00D260F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBB3277C23E1783D00D260F2 /* diamond-kataTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3277D23E1783D00D260F2 /* diamond_kataTests.swift */,
+				BBB3277F23E1783D00D260F2 /* Info.plist */,
+			);
+			path = "diamond-kataTests";
+			sourceTree = "<group>";
+		};
+		BBB3278723E1783D00D260F2 /* diamond-kataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3278823E1783D00D260F2 /* diamond_kataUITests.swift */,
+				BBB3278A23E1783D00D260F2 /* Info.plist */,
+			);
+			path = "diamond-kataUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBB3276223E1783C00D260F2 /* diamond-kata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB3278D23E1783D00D260F2 /* Build configuration list for PBXNativeTarget "diamond-kata" */;
+			buildPhases = (
+				BBB3275F23E1783C00D260F2 /* Sources */,
+				BBB3276023E1783C00D260F2 /* Frameworks */,
+				BBB3276123E1783C00D260F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "diamond-kata";
+			productName = "diamond-kata";
+			productReference = BBB3276323E1783C00D260F2 /* diamond-kata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBB3277823E1783D00D260F2 /* diamond-kataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB3279023E1783D00D260F2 /* Build configuration list for PBXNativeTarget "diamond-kataTests" */;
+			buildPhases = (
+				BBB3277523E1783D00D260F2 /* Sources */,
+				BBB3277623E1783D00D260F2 /* Frameworks */,
+				BBB3277723E1783D00D260F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBB3277B23E1783D00D260F2 /* PBXTargetDependency */,
+			);
+			name = "diamond-kataTests";
+			productName = "diamond-kataTests";
+			productReference = BBB3277923E1783D00D260F2 /* diamond-kataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBB3278323E1783D00D260F2 /* diamond-kataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB3279323E1783D00D260F2 /* Build configuration list for PBXNativeTarget "diamond-kataUITests" */;
+			buildPhases = (
+				BBB3278023E1783D00D260F2 /* Sources */,
+				BBB3278123E1783D00D260F2 /* Frameworks */,
+				BBB3278223E1783D00D260F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBB3278623E1783D00D260F2 /* PBXTargetDependency */,
+			);
+			name = "diamond-kataUITests";
+			productName = "diamond-kataUITests";
+			productReference = BBB3278423E1783D00D260F2 /* diamond-kataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBB3275B23E1783C00D260F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Siroratt Suntronsuk";
+				TargetAttributes = {
+					BBB3276223E1783C00D260F2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BBB3277823E1783D00D260F2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BBB3276223E1783C00D260F2;
+					};
+					BBB3278323E1783D00D260F2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BBB3276223E1783C00D260F2;
+					};
+				};
+			};
+			buildConfigurationList = BBB3275E23E1783C00D260F2 /* Build configuration list for PBXProject "diamond-kata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBB3275A23E1783C00D260F2;
+			productRefGroup = BBB3276423E1783C00D260F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBB3276223E1783C00D260F2 /* diamond-kata */,
+				BBB3277823E1783D00D260F2 /* diamond-kataTests */,
+				BBB3278323E1783D00D260F2 /* diamond-kataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBB3276123E1783C00D260F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB3277323E1783D00D260F2 /* LaunchScreen.storyboard in Resources */,
+				BBB3277023E1783D00D260F2 /* Preview Assets.xcassets in Resources */,
+				BBB3276D23E1783D00D260F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB3277723E1783D00D260F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB3278223E1783D00D260F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBB3275F23E1783C00D260F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB3276723E1783C00D260F2 /* AppDelegate.swift in Sources */,
+				BBB3276923E1783C00D260F2 /* SceneDelegate.swift in Sources */,
+				BBB3276B23E1783C00D260F2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB3277523E1783D00D260F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB3277E23E1783D00D260F2 /* diamond_kataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB3278023E1783D00D260F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB3278923E1783D00D260F2 /* diamond_kataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBB3277B23E1783D00D260F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB3276223E1783C00D260F2 /* diamond-kata */;
+			targetProxy = BBB3277A23E1783D00D260F2 /* PBXContainerItemProxy */;
+		};
+		BBB3278623E1783D00D260F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB3276223E1783C00D260F2 /* diamond-kata */;
+			targetProxy = BBB3278523E1783D00D260F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBB3277123E1783D00D260F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB3277223E1783D00D260F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBB3278B23E1783D00D260F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBB3278C23E1783D00D260F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBB3278E23E1783D00D260F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"diamond-kata/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "diamond-kata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ann-ja.diamond-kata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBB3278F23E1783D00D260F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"diamond-kata/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "diamond-kata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ann-ja.diamond-kata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBB3279123E1783D00D260F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "diamond-kataTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ann-ja.diamond-kataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diamond-kata.app/diamond-kata";
+			};
+			name = Debug;
+		};
+		BBB3279223E1783D00D260F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "diamond-kataTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ann-ja.diamond-kataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diamond-kata.app/diamond-kata";
+			};
+			name = Release;
+		};
+		BBB3279423E1783D00D260F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "diamond-kataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ann-ja.diamond-kataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "diamond-kata";
+			};
+			name = Debug;
+		};
+		BBB3279523E1783D00D260F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "diamond-kataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ann-ja.diamond-kataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "diamond-kata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBB3275E23E1783C00D260F2 /* Build configuration list for PBXProject "diamond-kata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB3278B23E1783D00D260F2 /* Debug */,
+				BBB3278C23E1783D00D260F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB3278D23E1783D00D260F2 /* Build configuration list for PBXNativeTarget "diamond-kata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB3278E23E1783D00D260F2 /* Debug */,
+				BBB3278F23E1783D00D260F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB3279023E1783D00D260F2 /* Build configuration list for PBXNativeTarget "diamond-kataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB3279123E1783D00D260F2 /* Debug */,
+				BBB3279223E1783D00D260F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB3279323E1783D00D260F2 /* Build configuration list for PBXNativeTarget "diamond-kataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB3279423E1783D00D260F2 /* Debug */,
+				BBB3279523E1783D00D260F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBB3275B23E1783C00D260F2 /* Project object */;
+}

@@ -2,10 +2,12 @@ import UIKit
 import XCTest
 
 //http://codingdojo.org/kata/Diamond/
+
 func diamond(character: Character) -> String {
     let upperLeftQuadrant = generateSeedQuadrant(char: character)
     let upperRightQuadrant = upperLeftQuadrant.map{ r -> [Character] in r.dropLast().reversed() }
-    let upperHalf = zip(upperLeftQuadrant, upperRightQuadrant).map{ pair -> [Character] in
+    let upperHalf = zip(upperLeftQuadrant, upperRightQuadrant)
+        .map{ pair -> [Character] in
         let (rL, rR) = pair
         return rL + rR
     }
