@@ -22,4 +22,27 @@ class diamond_kataTests: XCTestCase {
              A
             """)
     }
+    
+//    func test_whenInputC_shouldGet5linesDiamond() {
+//        XCTAssertTrue(Diamond().produce(with: "C") ==
+//            """
+//              A
+//             B B
+//            C   C
+//             B B
+//              A
+//            """)
+//    }
+    
+    func test_generateQuarterRow_withIndex2() {
+        XCTAssertTrue(Diamond().generateQuarterRow(size: 3, char: "A", index: 2) == [" ", " ", "A"])
+    }
+    
+    func test_generateQuarterRow_withIndex1() {
+        XCTAssertTrue(Diamond().generateQuarterRow(size: 3, char: "B", index: 1) == [" ", "B", " "])
+    }
+    
+    func test_generateQuarterRow_withIndex0() {
+        XCTAssertTrue(Diamond().generateQuarterRow(size: 3, char: "C", index: 0) == ["C", " ", " "])
+    }
 }

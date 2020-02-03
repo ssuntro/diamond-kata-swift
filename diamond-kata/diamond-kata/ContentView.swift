@@ -21,6 +21,14 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 struct Diamond {
+    func generateQuarterRow(size: Int, char: Character, index: Int) -> [Character] {
+        return [Character](repeating: " ", count: size)
+            .enumerated()
+            .map { input -> Character in
+                if input.offset == index { return char } else { return input.element }
+        }
+    }
+    
     func produce(with character: String) -> String {
         if character == "A" {
             return "A"
